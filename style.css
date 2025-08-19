@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+header{
+    text-align: center;
+    margin: 30px 0 70px 0;
+}
+
+section#containerlogin{
+    max-width: 768px;
+    margin: 0 auto;
+    border: 3px solid whitesmoke;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.2),
+                inset 2px 2px 5px rgb(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ri-user-line{
+    font-size: 70px;
+    background-color: rgb(0, 139, 139);
+    padding: 15px;
+    border-radius: 100px;
+    margin-top: -55px;
+    margin-bottom: 10px;
+}
+
+.infotela{
+    margin-bottom: 25px;
+}
+
+div.clogin label{
+    cursor: pointer;
+}
+
+div.clogin i{
+    font-size: 21px;
+}
+
+div.clogin input{
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+}
+
+div.clogin input::placeholder {
+    color: #aaa;
+}
+
+div.clogin input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(14, 66, 82, 0.5);
+}
+
+section#containerlogin .botaologin{
+    padding: 10px 0 10px 0;
+    width: 200px;
+    background: linear-gradient(to bottom, rgb(0, 139, 139), rgb(32, 178, 170));
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+    margin-bottom: 45px;
+}
+
+section#containerlogin .botaologin:hover {
+  filter: brightness(115%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+div.caixaCadastre{
+    margin-bottom: 15px;
+}
+
+div.caixaCadastre input{
+    border: 1px solid rgb(0, 0, 0, 0.5);
+    padding: 1px;
+    border-radius: 2px;
+    background-color: rgb(0, 139, 139);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+div.caixaCadastre input:hover{
+    color: rgb(8, 43, 43);
+}
+
+footer{
+    margin-top: 30px;
+    text-align: center;
+}

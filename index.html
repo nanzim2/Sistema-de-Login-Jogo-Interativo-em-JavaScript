@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Bem Vindo!</h1>
+    </header>
+    <section id="containerlogin">
+        <i class="ri-user-line"></i>
+        <h2 class="infotela">ENTRAR</h2>
+        <table>
+            <div class="clogin">
+                <label for="txtlogin"><i class="ri-user-fill"></i></label>
+                <input type="text" name="txtuser" id="txtlogin" placeholder="Username" required>
+            </div>
+            <div class="clogin">
+                <label for="txtpassword"><i class="ri-lock-fill"></i></label>
+                <input type="password" name="txtpassword" id="txtpassword" placeholder="Password" required>
+            </div>
+            <input type="submit" value="LOGIN" onclick="verificarLogin()" class="botaologin">
+        </table>
+        <div class="caixaCadastre">
+            <label for="cadastro" id="labelcadastrese">Ainda não tem conta?</label>
+            <input type="button" name="cadastro" value="Cadastre-se" id="cadastrese" onclick="telaCadastro()">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Renan.dev</p>
+    </footer>
+</body>
+</html>
