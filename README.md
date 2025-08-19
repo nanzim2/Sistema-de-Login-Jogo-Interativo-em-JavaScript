@@ -18,7 +18,7 @@ Ele simula a criação e autenticação de usuários diretamente no navegador, s
 - **Remix Icon**
 
 ## 📷 Demonstração
-![Preview](preview/Preview.png.png) <!-- você pode colocar um print da tela -->
+![Preview](preview/Preview.png) <!-- você pode colocar um print da tela -->
 
 ## 🎯 Objetivo
 O projeto foi desenvolvido para fins de aprendizado, com foco em:
