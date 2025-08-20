@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogo.css">
+    <script src="jogo.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Jogo</title>
+</head>
+<body>
+    <header>
+        <h1><i class="ri-game-fill"></i> Joguinho Pseudocódigo</h1>
+    </header>
+    <section>
+        <div class="info">
+            <h3><i class="ri-information-2-line"></i> Regras</h3>
+            <ul>
+                <li><strong>Cor:</strong> Corre</li>
+                <li><strong>Fruta:</strong> Dança</li>
+                <li><strong>membros do corpo:</strong> Pula</li>
+            </ul>
+        </div>
+        <div class="caixatexto">
+                <label for="palavra"><i class="ri-pencil-fill"></i> ESCREVA UMA PALAVRA <i class="ri-pencil-fill"></i></label><br>
+                <input type="text" name="palavra" id="inputPalavra">
+                <input type="submit" value="Enviar" id="inputEnviar" onclick="enviar()">
+        </div>
+        <div id="divGif">
+            <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe id="gif" src="https://giphy.com/embed/fk7dcmt3TwgZm0ZE8c" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 Renan.dev</p>
+    </footer>
+</body>
+</html>

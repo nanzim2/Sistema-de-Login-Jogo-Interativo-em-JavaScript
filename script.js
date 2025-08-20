@@ -58,6 +58,7 @@ function verificarLogin(){
         if(acesso){
             if(acesso.password === senhaLogin){
                 window.alert(`Bem vindo, ${userLogin}`)
+                redirecionar()
             } else{
                 window.alert('Senha Incorreta!')
             }
@@ -69,4 +70,8 @@ function verificarLogin(){
 
     inputUser.value = ''
     inputPassword.value = ''
+}
+
+function redirecionar(){
+    window.location.href = "jogo/jogo.html";
 }
