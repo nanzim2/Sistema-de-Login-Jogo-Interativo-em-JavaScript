@@ -102,5 +102,5 @@ function acaoGif(categoria){
         case 'desconhecida':
             gif.src = 'https://giphy.com/embed/G2tytrXJjiZjO'
     }
-    setTimeout(inicio, 2000)
+    setTimeout(inicio, 4000)
 }
